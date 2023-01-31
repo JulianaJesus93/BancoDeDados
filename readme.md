@@ -9,14 +9,14 @@ Projeto desenvolvido como atividade individual do módulo de Back-end do curso d
 A Resília quer lançar um novo sistema e precisa modelar um banco de dados para armazenar seus *cursos*, *turmas* e *alunos*.
 
 Questões levantadas:
-- Existem outras entidades além dessas três?
+- **Existem outras entidades além dessas três?**
     A priori, criei a entidade *polo* e a *professores*. Para que o relacionamento fosse mais completo.
 
-- Quais são os principais campos e tipos?
+- **Quais são os principais campos e tipos?**
     Todas as entidades possuem ID, seu tipo é INT, e são Primary Key.
     Em cada uma das entidades, pode-se ver seus atributos, que em sua maioria são do tipo VARCHAR.
 
-- Como essas entidades estão relacionadas?
+- **Como essas entidades estão relacionadas?**
     Cada *polo* contem seus *cursos*, que contem *turmas* e *professores*. 
     Cada *turma* contém seus *alunos* e *professores*.
 
